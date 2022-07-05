@@ -2,3 +2,37 @@ body {
     font-family: 'Mukta', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+
+.all-center {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.taka {
+    display: flex;
+    white-space: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(252, 61, 61);
+    border-radius: 5px;
+}
+
+.head {
+    background-image: url(pics/donation9.jpg);
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 100px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(20, 20, 35);
+    color: rgb(255, 255, 255);
+}
