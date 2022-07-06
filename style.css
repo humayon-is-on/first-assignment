@@ -1,6 +1,10 @@
 body {
     font-family: 'Mukta', sans-serif;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
 }
 
 .all-center {
@@ -9,9 +13,27 @@ body {
     justify-content: center;
 }
 
-.taka {
+p {
+    color: rgb(96, 96, 96);
+}
+
+ul {
     display: flex;
-    white-space: 30px;
+    margin: 20px;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #f0eeee;
+    border-radius: 3px;
+}
+
+#tk200 {
+    background-color: rgb(248, 189, 189);
+    color: rgb(248, 53, 53);
+    border: 1px solid red;
 }
 
 .btn {
@@ -31,8 +53,56 @@ body {
     font-weight: 100px;
 }
 
-footer {
+.sec2 {
+    display: flex;
+}
+
+.pad-mar2 {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#sec2-div1 {
+    background-color: rgb(215, 248, 236);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#sec2-div2 {
+    background-color: rgb(248, 232, 244);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#sec2-div3 {
+    background-color: rgb(211, 217, 247);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sec3 {
+    display: flex;
+}
+
+.sec3-divs {
+    width: 40%;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.idea-sharing {
+    background-color: rgb(239, 239, 190);
     height: 100px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+footer {
+    height: 150px;
     background-color: rgb(20, 20, 35);
     color: rgb(255, 255, 255);
 }
