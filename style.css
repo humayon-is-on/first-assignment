@@ -1,108 +1,181 @@
-body {
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    align-items: center;
-}
-
-.all-center {
+    * {
+        margin: 0;
+    }
+    
+    body {
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100vw;
+        margin: 0;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    /* .all-center {
     text-align: center;
     align-content: center;
     justify-content: center;
-}
-
-p {
-    color: rgb(96, 96, 96);
-}
-
-ul {
-    display: flex;
-    margin: 20px;
-    list-style: none;
-}
-
-ul li {
-    padding: 10px;
-    margin: 10px 5px;
-    background-color: #f0eeee;
-    border-radius: 3px;
-}
-
-#tk200 {
-    background-color: rgb(248, 189, 189);
-    color: rgb(248, 53, 53);
-    border: 1px solid red;
-}
-
-.btn {
-    text-decoration: none;
-    color: #fff;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(252, 61, 61);
-    border-radius: 5px;
-}
-
-.head {
-    background-image: url(pics/donation9.jpg);
-    background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-weight: 100px;
-}
-
-.sec2 {
-    display: flex;
-}
-
-.pad-mar2 {
-    margin: 20px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-#sec2-div1 {
-    background-color: rgb(215, 248, 236);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
-}
-
-#sec2-div2 {
-    background-color: rgb(248, 232, 244);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
-}
-
-#sec2-div3 {
-    background-color: rgb(211, 217, 247);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
-}
-
-.sec3 {
-    display: flex;
-}
-
-.sec3-divs {
-    width: 40%;
-    margin: 20px;
-    border-radius: 5px;
-}
-
-.idea-sharing {
-    background-color: rgb(239, 239, 190);
-    height: 100px;
-    width: 50%;
-    border-radius: 10px;
-}
-
-footer {
-    height: 150px;
-    background-color: rgb(20, 20, 35);
-    color: rgb(255, 255, 255);
-}
+} */
+    
+    .sec1 {
+        width: 100vw;
+        height: 500px;
+        background-image: url(pics/donate00.png);
+    }
+    
+    .hed {
+        color: #fff;
+        font-size: 65px;
+        text-align: center;
+        text-shadow: 10px 10px 5px rgb(48, 46, 46);
+    }
+    
+    #flood {
+        color: rgb(175, 18, 18);
+    }
+    
+    #sub-title {
+        color: #fff;
+        text-shadow: 0px 0px 30px rgb(196, 0, 0);
+    }
+    
+    p {
+        color: rgb(96, 96, 96);
+    }
+    
+    .sec01 {
+        margin: 40px 80px;
+    }
+    
+    .uli {
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul {
+        display: flex;
+        margin: 20px;
+        list-style: none;
+    }
+    
+    ul li {
+        margin: 20px;
+        font-size: 20px;
+        padding: 15px;
+        margin: 10px 5px;
+        background-color: #f0eeee;
+        border-radius: 3px;
+    }
+    
+    #tk200 {
+        background-color: rgb(248, 189, 189);
+        color: rgb(248, 53, 53);
+        border: 1px solid red;
+    }
+    
+    .btn {
+        text-decoration: none;
+        color: #fff;
+        margin: 20pxpx;
+        padding: 10px;
+        background-color: rgb(252, 61, 61);
+        border-radius: 5px;
+    }
+    
+    .head {
+        background-image: url(pics/donation9.jpg);
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: 100px;
+    }
+    
+    .sec2 {
+        display: flex;
+    }
+    
+    .pad-mar2 {
+        margin: 20px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    #sec2-div1 {
+        background-color: rgb(215, 248, 236);
+        border-radius: 5px;
+        padding: 15px;
+        margin: 25px;
+        text-align: justify;
+    }
+    
+    #sec2-div2 {
+        background-color: rgb(248, 232, 244);
+        border-radius: 5px;
+        padding: 15px;
+        margin: 25px;
+        text-align: justify;
+    }
+    
+    #sec2-div3 {
+        background-color: rgb(211, 217, 247);
+        border-radius: 5px;
+        padding: 15px;
+        margin: 25px;
+        text-align: justify;
+    }
+    
+    .sec3 {
+        display: flex;
+        width: 100%;
+        margin: 40px 80px;
+    }
+    
+    .sec3-divs {
+        width: 40%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    
+    .sec4-div1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sec4-div2 {
+        background-color: rgb(252, 252, 179);
+        padding: 3vw 20vw;
+        border-radius: 10px;
+    }
+    
+    .form-control {
+        background-color: rgb(183, 183, 183);
+        height: 31px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+    }
+    
+    .btn-control {
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(237, 52, 52);
+        padding: 7px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    footer {
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        height: 150px;
+        background-color: rgb(20, 20, 35);
+        color: rgb(255, 255, 255);
+    }
+    
+    #foot {
+        color: rgb(254, 0, 0);
+        font-size: 35px;
+        font-family: 'Niconne', cursive;
+        ;
+    }
